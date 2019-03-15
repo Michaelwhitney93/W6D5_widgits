@@ -1,0 +1,67 @@
+.clock {
+    font-family: fantasy;
+    background: chartreuse;
+    border: groove 10px;
+    width: 700px;
+    height: 100px;
+    align-content: center;
+    position: relative;
+    left: 25%;
+    font-size: 20px;
+    
+
+}
+body {
+    background: salmon;
+}
+.time {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+    font-weight: 800;
+}
+
+.tab {
+    position: relative;
+    left: 10%;
+    width: 400px;
+    height: 300px;
+    top: 200px;
+}
+
+.tabs {
+    /* background: purple;
+    border: groove 10px; */
+}
+
+.tab-header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: -25px;
+}
+
+.tab-header > span {
+    background: purple;
+    font-size: 40px;
+    border: groove 5px;
+    width: 220px;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    z-index: 2;
+}
+
+.tab-header > span.selected {
+    border-bottom: none;
+}
+.tab-content {
+    background: purple;
+    border: groove 5px;
+    position: relative;
+    top: -35px;
+    text-align: center;
+    font-size: 50px;
+}
+
+
